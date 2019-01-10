@@ -1,0 +1,2 @@
+# Random-Quotes-App
+Simple app suitable for the iPhone 8 plus. Has a list of three quotes, 3 images and three authors. When you tap the inspire me button, then a random quote will be selected, with the appropriate author name and author image to be displayed. Since this only has 3 hard coded values you might have to click the inspire me button more than once in order for a new quote to be displayed since the range for a random returned value is only 0-2.
