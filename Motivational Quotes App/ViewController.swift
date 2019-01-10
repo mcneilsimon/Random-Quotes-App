@@ -14,6 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var authorNameLabel: UILabel!
     @IBOutlet weak var authorImageView: UIImageView!
     
+    override func viewDidLoad() {
+        quoteTextLabel.text = ""
+        authorNameLabel.text = ""
+        authorImageView.image = UIImage()
+    }
+    
     var quoteBook = QuoteBook()
     
     @IBAction func getNewQuote() {
